@@ -90,3 +90,15 @@ body{
 .lh-normal{
     line-height: normal;
 }
+
+#count-down{
+    color: #FFF;
+    font-family: Unica One;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 133%; /* 85.12px */
+}
+#count-down sub{
+    font-size: 14px;
+}
