@@ -46,6 +46,7 @@ body{
 }
 /* #hero-text{
     margin-left: 150px;
+    border: #D434FE;
 } */
 #hero-text h2{
     font-size: 80px;
@@ -65,4 +66,22 @@ body{
     font-weight: 400;
     line-height: normal;
 
+}
+
+@media (min-width: 992px ) {
+
+    #hero-img{
+        right: -10px;
+        position: absolute;
+    }
+}
+@media (min-width: 1200px ) {
+
+    #hero-img{
+        right: -20px;
+        position: absolute;
+    }
+}
+#hero-spark{
+    position: absolute;
 }
