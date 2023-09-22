@@ -1,3 +1,10 @@
+body{
+    color: white !important;
+    background: #150E28;
+    font-family: Clash Display;
+
+}
+
 .bg-base-body{
     background: #150E28;
 }
@@ -19,4 +26,43 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+}
+
+.btn-gradient{
+    /* border-radius: 4px; */
+    background: linear-gradient(270deg, #903AFF 0%, #D434FE 56.42%, #FF26B9 99.99%, #FE34B9 100%);
+}
+
+.navbar-border{
+    border-color: rgba(255, 255, 255, 0.18) !important;
+}
+
+#hero-img{
+    background-image: url("/static/images/man-wearing-smart-glasses-touching-virtual-screen1.png");
+    overflow-x: visible !important;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    /* background-size: cover; */
+}
+/* #hero-text{
+    margin-left: 150px;
+} */
+#hero-text h2{
+    font-size: 80px;
+}
+#herotext-2{
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 166%; /* 33.2px */
+}
+.cta-text{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
 }

@@ -11,7 +11,7 @@
   </head>
   <body>
 
-    <div class="bg-base-body">
+    <div >
 
       {% block navbar %}
         {% include '_navbar.html' %}
@@ -19,16 +19,48 @@
 
     </div>
 
-    <main class="bg-base-body py-5 text-light">
-      {% block content %}
-       
-        <p class="m-5 p-5">
-          Body Content Here
-        </p>
-      {% endblock content %}
-    </main>
+    {% block content %}
+    
+    <main class=" py-5 text-light">
+      <div class="row">
+        <div class="col-lg-6">
+          <img src="" alt="">
+        </div>
+        <div class="col-lg-6">
+          
+          <h1 class="fw-bold h2 me-4">Igniting a Revolution in HR Innovation</h1>
+        </div>
+      </div>
 
-    <div class="row justify-content-center overflow-hidden bg-base-body br-sm-0 border-0">
+      <div class="row g-0 my-5" id="hero">
+        <div class="col-12 col-lg-5 offset-lg-1 my-3 " >
+          <div class="fw-bold fs-1" id="hero-text">
+
+            <h2 class="fw-bold ">
+              getlinked Tech
+            </h2>
+            <h2 class="fw-bold ">
+              Hackathon <span class="base-purple">1.0</span>
+            </h2>
+            <h3 class="my-3" id="hero-text-2">Participate in getlinked tech Hackathon 2023 stand 
+              a chance to win a Big prize
+            </h3>
+
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-6" id="hero-img">
+          <img src="/static/images/image-1.png" alt="">
+
+        </div>
+        
+      </div>
+
+    </main>
+    
+    {% endblock content %}
+
+    <div class="row justify-content-center overflow-hidden  br-sm-0 border-0">
     </div>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
