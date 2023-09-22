@@ -8,8 +8,9 @@ body{
 .bg-base-body{
     background: #150E28;
 }
-.base-purple{
-    color: #D434FE;
+.logo{
+    line-height: normal;
+    font-size: 38px;
 }
 
 .base-purple{
@@ -84,4 +85,8 @@ body{
 }
 #hero-spark{
     position: absolute;
+}
+
+.lh-normal{
+    line-height: normal;
 }
